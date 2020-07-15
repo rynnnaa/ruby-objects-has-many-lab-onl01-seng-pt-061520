@@ -1,3 +1,4 @@
+require 'pry'
 class Song 
   
   @@all = []
@@ -14,5 +15,6 @@ class Song
   
   def artist_name
     song.artist = self
+    binding.pry
   end
 end
