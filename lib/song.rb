@@ -18,6 +18,6 @@ class Song
       self.artist.name
     else
       return nil
-    # binding.pry
+    end
   end
 end
