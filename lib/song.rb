@@ -14,12 +14,7 @@ class Song
   end
   
   def artist_name
-    if artist 
-      return 
-      self.artist.name
-    else
-      return nil
-    end
+    self.artist.name
     # binding.pry
   end
 end
